@@ -1,0 +1,40 @@
+d1{
+  background-color: lightseagreen;
+  padding: 10px 10px 10px 10px;
+  font-size: large;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+}
+
+h1 { 
+ 
+  border-bottom: 1px solid lightgray;
+  padding: 10px 10px 10px 0px;
+  font-family: Georgia;
+  color:lightseagreen;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.allheader{
+  background-color: lightseagreen;
+  font-size: small;
+  font-family: Georgia;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  font-size: 15px;
+}
+
+.subhead{
+  font-size: small;
+  padding: 10px 10px 10px 10px;
+
+}
+
+
+.imgresize {
+max-width: 90%;
+max-height: 90%;
+  }
+
