@@ -1,119 +1,17 @@
-d1{
-  background-color: lightseagreen;
-  padding: 10px 10px 10px 10px;
-  font-size: large;
-  font-family: Georgia;
-  font-weight: bold;
-  color: white;
-}
-containerviz{
-    position:relative;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 20px;
-}
 
 
-h1 { 
- 
-  border-bottom: 1px solid lightgray;
-  padding: 10px 10px 10px 0px;
-  font-family: Georgia;
-  color:lightseagreen;
-  font-weight: bold;
-  font-size: x-large;
-}
-.subhead{
-  font-size: large;
-  padding: 10px 10px 10px 0px;
-  border-bottom: 1px solid lightgray;
-  margin-left : 15px;
-}
 
-.allheader{
-  background-color: lightseagreen;
-  font-family: Georgia;
-  color: white;
-  padding: 10px 10px 10px 10px;
-  font-size: 15px;
-}
-
-h2{
-  
-
-}
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.navbar {
-  overflow: hidden;
-  font-family: Arial;
-}
-
-.dropdown-content {
-  display: none;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  list-style-type: none;}
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-img {
-  width:80%; 
-  height: 80%;}
-
-  <ul style="list-style-type:none;">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>  
-
-.sidenav {
-  width: 0px;
-  position: fixed;
-  z-index: 1;
-  background: #eee;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #2196F3;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #064579;
-}
-
-.main {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
+  .img {width:20%; height:20%}
 }
 
-/* @media (max-width: 600px) { */
+
   
-  @media (max-width: 400px) {  
-    .table-responsive {
-        font-size:10px !important;
+  @media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
     }
-}
-}
+
